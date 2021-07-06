@@ -6,9 +6,8 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
-import InboxIcon from '@material-ui/icons/Inbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
-
+import PersonIcon from '@material-ui/icons/Person';
+import TimelineIcon from '@material-ui/icons/Timeline';
 
 const styles = theme => ({
   root: {
@@ -25,15 +24,15 @@ function Navlist(props) {
       <List component="nav">
         <ListItem button>
           <ListItemIcon>
-            <InboxIcon />
+            <PersonIcon />
           </ListItemIcon>
-          <ListItemText primary="Inbox" />
+          <ListItemText primary="Profile" />
         </ListItem>
         <ListItem button>
           <ListItemIcon>
-            <DraftsIcon />
+            <TimelineIcon />
           </ListItemIcon>
-          <ListItemText primary="Drafts" />
+          <ListItemText primary="Order History" />
         </ListItem>
       </List>
       <Divider />

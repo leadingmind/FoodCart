@@ -18,9 +18,11 @@ export default function ButtonList() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+  const buyButtonStyle={position:'fixed',bottom:'50px',right:'30px'};
+
 
   return (
-    <div>
+    <div style={buyButtonStyle}>
       <Fab
         color="secondary"
         aria-controls="simple-menu"

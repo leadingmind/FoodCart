@@ -1,3 +1,8 @@
-export default ()=>(
-  <h1>This is the footer.</h1>
-);
+import BuyButtons from "./buybuttons"
+export default function Foot() {
+  // const classes = useStyles();
+
+  return (
+    <BuyButtons />
+  );
+}
